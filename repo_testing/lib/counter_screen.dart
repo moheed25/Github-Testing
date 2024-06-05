@@ -10,7 +10,7 @@ class CounterScreen extends StatefulWidget {
 class _CounterScreenState extends State<CounterScreen>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
-// mdbwbwbufwkfw fbdkkdw skdwq kkjdwdnw dkwdwk d
+
   @override
   void initState() {
     super.initState();
@@ -25,6 +25,11 @@ class _CounterScreenState extends State<CounterScreen>
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+        body: Column(
+      children: [
+        SizedBox()
+      ],
+    ));
   }
 }
